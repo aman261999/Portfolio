@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    
+    <!----------Link to CSS------------>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-----------Box Icons link-------->
+    <link href='https://unpkg.com/boxicons@2.1.2/dist/boxicons.js' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+    <!-------------Navbar -------------->
+    <nav>
+        <a href="#" class="logo">Portfolio - Aman</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+    <!--------------Menu Bar---------------->
+
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!---------------Main Text and Images-------------->
+
+    <section id="home">
+        <div class="home-text">
+            <h1>Hey, I'm <br> Aman <span> Srivastava</span> <br> Web Developer</h1>
+
+            <!-------------Button---------------->
+            <a href="#">Hire Me</a>
+
+        </div>
+
+        <!-----------------Home Image-------------->
+        <div class="home-img">
+            <img src="images/Profile.jpg" alt="">   
+        </div>
+        
+        <!---------------Social-------------->
+        <div class="social">
+            <a href="#"><i class='bx bxl-github'></a></i>
+            <a href="#"><i class='bx bxl-linkedin'></a></i>
+            <a href="#"><i class='bx bxl-facebook'></a></i>
+            <a href="#"><i class='bx bxl-instagram'></i>
+
+        </div>
+
+
+    </section>
+
+    <!------------------------About Section---------------->
+
+    <section id="about">
+
+        <!-- -------------Heading------------------>
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+
+        <!---------------About Content------------>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/Profile.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm Aman</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus officiis dolore, error expedita dolorum eligendi laudantium eius excepturi animi culpa iure voluptate veritatis dolor laboriosam, natus delectus ab odio libero nihil nobis alias sequi? Omnis sequi possimus facere delectus iste!</p>
+
+                <!------------------Button------------------>
+                <a class="cv" href="#">Download CV</a>
+
+            </div>
+
+        </div>
+
+        <section id="services">
+            <!-----------headings------------>
+            <div class="heading">
+                <h2>Services</h2>
+                <p>Services We offer,</p>
+            </div>
+
+            <div class="services-content">
+
+                <!--------------Box------------>
+
+                <div class="box">
+                    <img src="images/htmlimgg.webp" alt="">
+                    <h1>HTML Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/CSSimg.webp" alt="">
+                    <h1>CSS Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/Jsimg.webp" alt="">
+                    <h1>JavaScript Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/C++img.webp" alt="">
+                    <h1>Programming Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/excelimg.webp" alt="">
+                    <h1>MS Excel Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="box">
+                    <img src="images/weatherimg.webp" alt="">
+                    <h1>Weather Delight Project</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam voluptatum libero Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!------------Work Section------------>
+
+        <section id="work">
+            <div class="heading">
+                <h2>Work</h2>
+                <p>Work With Us</p>
+            </div>
+            <div class="work-content">
+                <div class="work-text">
+                    <h1>We Believe To Deliver Best <br> Quality Work</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas atque voluptates error minus, nemo nesciunt natus dolores ratione culpa maxime vitae voluptate consequuntur hic voluptatibus blanditiis nostrum dolore unde? Blanditiis soluta dicta accusamus recusandae quas modi inventore nostrum omnis nihil.</p>
+                    <a href="#Contact">Contact</a>
+                </div>
+                <div class="work-img">
+                    <img src="images/workimg.webp" alt="">
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- -------Contact------------------>
+
+     <section id="contact">
+         <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave A Message I Will Try To Reply In 24 Hours.</p>
+         </div>
+
+         <div class="contact-content">
+             <div class="app">
+                <h1>Connect With Us <br> By Our Apps</h1>
+                <a href="#"><i class='bx bxl-play-store'></i></a>
+                <a href="#"><i class='bx bxl-apple'></i></a>
+             </div>
+
+             <div class="contact-form">
+                 <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                 </form>
+             </div>
+         </div>
+     </section>
+
+     <!---------------Copyright---------->
+      
+     <div class="copyright">
+        <p>© AMAN SRIVASTAVA , All Rights Reserved</p>
+     </div>
+
+
+     <!---------------link to js---------->
+     <script src="script.js"></script>
+    
+
+
+
+
+</body>
+</html>
